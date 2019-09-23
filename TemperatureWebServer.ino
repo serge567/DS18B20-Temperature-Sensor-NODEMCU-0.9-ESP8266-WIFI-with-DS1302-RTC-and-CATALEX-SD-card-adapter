@@ -70,8 +70,8 @@ long previousMillis = 0;
 
 // NTP
 #include <WiFiUdp.h>
-const char sSSIDNTP[] = "UsagiMoomin";  //  your network SSID (name)
-const char sPassNTP[]  = "usachumuchu";  // your network password
+const char sSSIDNTP[] = "SSIDInternetRouter";  //  your network SSID (name)
+const char sPassNTP[]  = "password";  // your network password
 static const char ntpServerName[] = "ntp.nict.jp";
 const int timeZone = 9;     // Tokyo
 WiFiUDP Udp;
